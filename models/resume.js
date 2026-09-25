@@ -44,6 +44,7 @@ const resumeSchema = new mongoose.Schema(
 
     experience: {
       type: String,
+      default: "",
     },
 
     image: {
