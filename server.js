@@ -5,7 +5,7 @@ const multer = require("multer");
 const path = require("path");
 
 const connectDB = require("./config/db");
-const Resume = require("./models/Resume");
+const Resume = require("./models/resume");
 
 dotenv.config();
 connectDB();
